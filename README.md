@@ -1,4 +1,4 @@
-# fast-finderchart
+# better-findercharts
 <pre>
 Python command-line script to easily create astronomical findercharts with overlaid, customizable data. 
 Findercharts and .log file will save into same directory as the finderchart.py file.
