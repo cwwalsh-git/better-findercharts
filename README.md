@@ -27,9 +27,11 @@ Main surveys: DSS, SDSSg, Pan-STARRS1/PS1.
 argument examples:
   python finderchart.py -p m83, 182 15, m99 -s PS1 -w 3
       =returns 3-arcmin findercharts at M83, ICRS coordinates "182, 15", and M99; uses survey Pan-STARRS1. 
-       Note the lack of comma within the coordinate pair (182 15). This is intentional, and be sure to omit this comma to ensure positions are properly parsed.
+       Note the lack of comma within the coordinate pair (182 15). This is intentional.
+       Be sure to omit this comma to ensure positions are properly parsed.
   python finderchart.py -p example.csv -s DSS -w 2 -f 2
-      =returns findercharts with positions from a .csv file in the same working directory. Note that the -f argument changes the -p argument to instead take a filename.
+      =returns findercharts with positions from a .csv file in the same working directory. 
+       Note that the -f argument changes the -p argument to instead take a filename.
        In this case, -f 2 means that the .csv has coordinate pairs in the first two columns: ie "ra, dec, 123, 12, 50, 13,..." 
        -f 1 would imply that the .csv has positions in the first column only: ie "positions, M83, 182 15, M99,..." 
 </pre>
