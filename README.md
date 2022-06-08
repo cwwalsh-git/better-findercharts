@@ -1,5 +1,5 @@
 # fast-finderchart
-<ul>
+<pre>
 Python command-line script to easily create astronomical findercharts with overlaid, customizable data. 
 Findercharts and .log file will save into same directory as the finderchart.py file.
 
@@ -32,4 +32,4 @@ argument examples:
       =returns findercharts with positions from a .csv file in the same working directory. Note that the -f argument changes the -p argument to instead take a filename.
        In this case, -f 2 means that the .csv has coordinate pairs in the first two columns: ie "ra, dec, 123, 12, 50, 13,..." 
        -f 1 would imply that the .csv has positions in the first column only: ie "positions, M83, 182 15, M99,..." 
-  </ul>
+</pre>
