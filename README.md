@@ -1,2 +1,2 @@
 # fast-finderchart
-Program to easily create astronomical findercharts with overlaid, customizable data
+Python command-line script to easily create astronomical findercharts with overlaid, customizable data
